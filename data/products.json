@@ -1,0 +1,2428 @@
+[
+  {
+    "id": 1,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "Насыщенный молочный шоколад с контрастным дуэтом — соленый арахис и тягучая карамель. Для тех, кто любит баланс сладкого и солёного",
+    "emoji": "🍫",
+    "image": "po.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 2,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "Мягкий молочный шоколад с ароматом мака и сбалансированной сладостью соленой карамели. Идеальное сочетание уюта и пикантности.",
+    "emoji": "🍫",
+    "image": "pu.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 3,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "Нежный молочный шоколад, обогащённый традиционным кыргызским талканом и сладкой хрустящей крошкой фундука. Аутентичный вкус в современной подаче.",
+    "emoji": "🍫",
+    "image": "pt.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 4,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 34,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 1020,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД 33,9% «NO SUGAR» с цельным фундуком",
+    "emoji": "🍫",
+    "image": "vv.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 5,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 34,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 850,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД 33,9% «NO SUGAR» с натуральной ванилью сорта «бурбон»",
+    "emoji": "🍫",
+    "image": "mm.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 6,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 34,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 750,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД С ЦЕЛЬНЫМ ФУНДУКОМ 34%",
+    "emoji": "🍫",
+    "image": "zz.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 7,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД ORIGINE PAPOUASIE 35%",
+    "emoji": "🍫",
+    "image": "xx.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 8,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД С ФУНДУЧНЫМ ПРАЛИНЕ",
+    "emoji": "🍫",
+    "image": "ff.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 9,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД С ДРОБЛЕННЫМ ФУНДУКОМ",
+    "emoji": "🍫",
+    "image": "hh.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 10,
+    "name": "Молочный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "МОЛОЧНЫЙ ШОКОЛАД С ДРОБЛЕНОЙ ФИСТАШКОЙ",
+    "emoji": "🍫",
+    "image": "ss.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 11,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 72,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "Глубокий вкус темного шоколада, дополненный яркой кислинкой облепихи и хрустящими кусочками карамелизированной фисташки. Освежающе и неожиданно.",
+    "emoji": "🍫",
+    "image": "pp.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 12,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 72,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 220,
+    "description": "Темный шоколад с насыщенным вкусом, в котором раскрываются тёплые нотки чернослива и благородной карамелизированной грецкой крошки. Глубокий восточный акцент.",
+    "emoji": "🍫",
+    "image": "pi.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 13,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 54,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 850,
+    "description": "ТЕМНЫЙ ШОКОЛАД 53,9% «NO SUGAR с клюквой",
+    "emoji": "🍫",
+    "image": "bb.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 14,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 54,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 850,
+    "description": "ТЕМНЫЙ ШОКОЛАД 53,9% «NO SUGAR с натуральной ванилью сорта «бурбон»",
+    "emoji": "🍫",
+    "image": "cc.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 15,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 54,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "ТЕМНЫЙ ШОКОЛАД С МИНДАЛЕМ И КЛЮКВОЙ",
+    "emoji": "🍫",
+    "image": "jj.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 16,
+    "name": "Темный",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "dark",
+    "cacao": 54,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "ТЕМНЫЙ ШОКОЛАД С МИНДАЛЬНЫМ ПРАЛИНЕ",
+    "emoji": "🍫",
+    "image": "gg.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 17,
+    "name": "Белый",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "white",
+    "cacao": 72,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 650,
+    "description": "Теплый вкус сушеного абрикоса и деликатный миндаль в обволакивающем белом шоколаде. Легкость, которую хочется повторить.",
+    "emoji": "🍫",
+    "image": "py.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 18,
+    "name": "Белый",
+    "brand": "yahya",
+    "brandName": "Yahya",
+    "type": "white",
+    "cacao": 72,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "БЕЛЫЙ ШОКОЛАД С МАЛИНОЙ",
+    "emoji": "🍫",
+    "image": "dd.png",
+    "tags": [],
+    "country": "kyrgyzstan"
+  },
+  {
+    "id": 19,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Кокос, инжир и крекер",
+    "emoji": "🍫",
+    "image": "ч9.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 20,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Фундук",
+    "emoji": "🍫",
+    "image": "ч7.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 21,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Соленый арахис и крекер",
+    "emoji": "🍫",
+    "image": "ч8.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 22,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Соленый арахис и крекер",
+    "emoji": "🍫",
+    "image": "ч44.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 23,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Тропический кокос",
+    "emoji": "🍫",
+    "image": "ч55.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 24,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Чернично-йогуртовая начинка",
+    "emoji": "🍫",
+    "image": "п2.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 25,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Начинка со вкусом капучино",
+    "emoji": "🍫",
+    "image": "п3.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 26,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад.",
+    "emoji": "🍫",
+    "image": "п66.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 27,
+    "name": "Молочный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "milk",
+    "cacao": 35,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 320,
+    "description": "Молочный шоколад. Фундук и изюм",
+    "emoji": "🍫",
+    "image": "ч77.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 28,
+    "name": "Темный",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "dark",
+    "cacao": 65,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 380,
+    "description": "Тёмный шоколад.",
+    "emoji": "🍫",
+    "image": "п8.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 29,
+    "name": "Белый",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "white",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 120,
+    "description": "Белый шоколад. Миндаль и кокос",
+    "emoji": "🍫",
+    "image": "ч22.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 30,
+    "name": "Белый",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "white",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 120,
+    "description": "Белый шоколад. Пинаколада",
+    "emoji": "🍫",
+    "image": "ч1.webp",
+    "tags": [],
+    "country": "russia"
+  },
+  {
+    "id": 31,
+    "name": "Орео",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "oreo",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Классический чизкейк",
+    "emoji": "🍫",
+    "image": "п5.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 32,
+    "name": "Орео",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "oreo",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Черничная поляна",
+    "emoji": "🍫",
+    "image": "п7.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 33,
+    "name": "Орео",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "oreo",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Нежная клубника",
+    "emoji": "🍫",
+    "image": "ч4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 34,
+    "name": "Max Fun",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "max fun",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Взрывная карамель, мармелад, печенье",
+    "emoji": "🍫",
+    "image": "x1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 35,
+    "name": "Max Fun",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "max fun",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Клубника, малина, черника, черная смородина, взрывная карамель, шипучие шарики",
+    "emoji": "🍫",
+    "image": "x2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 36,
+    "name": "Max Fun",
+    "brand": "alpen_gold",
+    "brandName": "Alpen Gold",
+    "type": "max fun",
+    "cacao": 70,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Манго, ананас, маракуйя, взрывная карамель, шипучие шарики",
+    "emoji": "🍫",
+    "image": "x4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "russia"
+  },
+  {
+    "id": 37,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Нежный молочный шоколад Milka с альпийским молоком. Тает во рту и дарит настоящее удовольствие.",
+    "emoji": "🍫",
+    "image": "m1.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 38,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Цельный фундук",
+    "emoji": "🍫",
+    "image": "m2.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 39,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Фундук, изюм",
+    "emoji": "🍫",
+    "image": "m3.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 40,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Фундук",
+    "emoji": "🍫",
+    "image": "m4.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 41,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Миндаль-лесные ягоды",
+    "emoji": "🐮",
+    "image": "m5.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 42,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Клубника со сливками",
+    "emoji": "🐮",
+    "image": "m6.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 43,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Цельный миндаль",
+    "emoji": "🍫",
+    "image": "m7.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 44,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Карамель",
+    "emoji": "🍫",
+    "image": "m8.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 45,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Ореховая паста из миндаля",
+    "emoji": "🍫",
+    "image": "m9.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 46,
+    "name": "Молочный",
+    "brand": "milka",
+    "brandName": "Milka",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Ореховая паста из фундука",
+    "emoji": "🍫",
+    "image": "m10.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 47,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Соленая карамель",
+    "emoji": "🍫",
+    "image": "ghg.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 48,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Карамельный мусс с миндалем",
+    "emoji": "🍫",
+    "image": "ji.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 49,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад с кешью",
+    "emoji": "🍫",
+    "image": "9oo.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 50,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Цельный миндаль",
+    "emoji": "🍫",
+    "image": "9o9.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 51,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Цельный лесной орех",
+    "emoji": "🍫",
+    "image": "o99.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 52,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Вафля и какао-мусс",
+    "emoji": "🍫",
+    "image": "ko.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 53,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Альпийское молоко",
+    "emoji": "🍫",
+    "image": "er.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 54,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Лесной орех",
+    "emoji": "🍫",
+    "image": "jij.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 55,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Клубника с йогуртом",
+    "emoji": "🍫",
+    "image": "yu.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 56,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Соленый арахис",
+    "emoji": "🍫",
+    "image": "9o99.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 57,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Карамель и печенье",
+    "emoji": "🍫",
+    "image": "hj.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 58,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Вафля и ореховый крем",
+    "emoji": "🍫",
+    "image": "rttt.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 59,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Кокос",
+    "emoji": "🍫",
+    "image": "re.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 60,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Ром, изюм, орех",
+    "emoji": "🍫",
+    "image": "hu.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 61,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад с орехами",
+    "emoji": "🍫",
+    "image": "uu.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 62,
+    "name": "Молочный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "milk",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Молочный шоколад. Какао",
+    "emoji": "🍫",
+    "image": "bgb.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 63,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "wsws.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 64,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "ll;.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 65,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "wqw.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 66,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "lkl.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 67,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "y9.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 68,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "pj.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 69,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "uyu.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 70,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "mnn.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 71,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "t5t.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 72,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "o9.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 73,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "uju.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 74,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "u7.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 75,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "xd.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 76,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "cv.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 77,
+    "name": "Темный",
+    "brand": "ritter_sport",
+    "brandName": "Ritter Sport",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 280,
+    "description": "Темный шоколад.",
+    "emoji": "🍫",
+    "image": "poy.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "germany"
+  },
+  {
+    "id": 78,
+    "name": "Roshen Elegant Milk",
+    "brand": "roshen",
+    "brandName": "Roshen",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Нежный молочный шоколад Roshen. Мягкий, тающий вкус с классической рецептурой.",
+    "emoji": "🍫",
+    "image": "r4.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "ukraine"
+  },
+  {
+    "id": 79,
+    "name": "Roshen Elegant Dark 72%",
+    "brand": "roshen",
+    "brandName": "Roshen",
+    "type": "dark",
+    "cacao": 72,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Насыщенный тёмный шоколад с 72% какао. Для истинных ценителей.",
+    "emoji": "🍫",
+    "image": "r5.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "ukraine"
+  },
+  {
+    "id": 80,
+    "name": "Roshen Арахис",
+    "brand": "roshen",
+    "brandName": "Roshen",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Молочный шоколад Roshen с хрустящим арахисом. Идеальное сочетание.",
+    "emoji": "🥜",
+    "image": "r6.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "ukraine"
+  },
+  {
+    "id": 81,
+    "name": "Roshen Карамель",
+    "brand": "roshen",
+    "brandName": "Roshen",
+    "type": "milk",
+    "cacao": 32,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 350,
+    "description": "Молочный шоколад Roshen с карамелью. Идеальное сочетание.",
+    "emoji": "🥜",
+    "image": "r3.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "ukraine"
+  },
+  {
+    "id": 82,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Nestle Damak 'Baklava' белый шоколад",
+    "emoji": "🍫",
+    "image": "d1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 83,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Nestle Damak 'Lokum' шоколад",
+    "emoji": "🍫",
+    "image": "d2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 84,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Nestle Damak шоколадная плитка с фисташками",
+    "emoji": "🍫",
+    "image": "d3.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 85,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Шоколад Nestle Damak 'Baklava'",
+    "emoji": "🍫",
+    "image": "d4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 86,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "KitKat — хрустящий вафельный батончик в шоколаде, идеальный для лёгкого перекуса",
+    "emoji": "🍫",
+    "image": "k1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 87,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Kit Kat Toffee Treat",
+    "emoji": "🍫",
+    "image": "k2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 88,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Кит Кат Ball шарики в белом шоколаде",
+    "emoji": "🍫",
+    "image": "k5.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 89,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Шоколад Кит Кат 4 Fingers Вайт",
+    "emoji": "🍫",
+    "image": "k6.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 90,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "dark",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Кит Кат Чанки батончик в темном шоколаде",
+    "emoji": "🍫",
+    "image": "k8.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 91,
+    "name": "Nestle",
+    "brand": "nestle",
+    "brandName": "Nestlé",
+    "type": "white",
+    "cacao": 30,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 180,
+    "description": "Кит Кат Чанки Карамель",
+    "emoji": "🍫",
+    "image": "k9.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 92,
+    "name": "Nutella",
+    "brand": "nutella",
+    "brandName": "Nutella",
+    "type": "spread",
+    "cacao": 0,
+    "flavor": "hazelnut",
+    "category": "sets",
+    "price": 450,
+    "description": "шоколадная паста Nutella & Go + палочки",
+    "emoji": "🍫",
+    "image": "nn1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "italy"
+  },
+  {
+    "id": 93,
+    "name": "Nutella",
+    "brand": "nutella",
+    "brandName": "Nutella",
+    "type": "spread",
+    "cacao": 0,
+    "flavor": "hazelnut",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколадная паста Нутелла 1кг",
+    "emoji": "🍫",
+    "image": "nn2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "italy"
+  },
+  {
+    "id": 94,
+    "name": "Nutella",
+    "brand": "nutella",
+    "brandName": "Nutella",
+    "type": "spread",
+    "cacao": 0,
+    "flavor": "hazelnut",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколадная паста Нутелла 200гр",
+    "emoji": "🍫",
+    "image": "nn3.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "italy"
+  },
+  {
+    "id": 95,
+    "name": "Nutella",
+    "brand": "nutella",
+    "brandName": "Nutella",
+    "type": "spread",
+    "cacao": 0,
+    "flavor": "hazelnut",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколадная паста Нутелла Plant Based 350г",
+    "emoji": "🍫",
+    "image": "nn5.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "italy"
+  },
+  {
+    "id": 96,
+    "name": "Nutella",
+    "brand": "nutella",
+    "brandName": "Nutella",
+    "type": "spread",
+    "cacao": 0,
+    "flavor": "hazelnut",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколадная паста Нутелла 700гр",
+    "emoji": "🍫",
+    "image": "nn6.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "italy"
+  },
+  {
+    "id": 97,
+    "name": "Toblerone",
+    "brand": "toblerone",
+    "brandName": "Toblerone",
+    "type": "chocolate",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "Шоколад Toblerone",
+    "emoji": "🍫",
+    "image": "h2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 98,
+    "name": "Toblerone",
+    "brand": "toblerone",
+    "brandName": "Toblerone",
+    "type": "chocolate",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "Шоколад Toblerone",
+    "emoji": "🍫",
+    "image": "h3.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 99,
+    "name": "Toblerone",
+    "brand": "toblerone",
+    "brandName": "Toblerone",
+    "type": "chocolate",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "bar",
+    "price": 450,
+    "description": "Шоколад Toblerone",
+    "emoji": "🍫",
+    "image": "h4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "switzerland"
+  },
+  {
+    "id": 100,
+    "name": "OREO",
+    "brand": "oreo",
+    "brandName": "OREO",
+    "type": "cookie",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Клубничный вкус",
+    "emoji": "🍫",
+    "image": "lk1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 101,
+    "name": "OREO",
+    "brand": "oreo",
+    "brandName": "OREO",
+    "type": "cookie",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколадный вкус",
+    "emoji": "🍫",
+    "image": "lk77.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 102,
+    "name": "OREO",
+    "brand": "oreo",
+    "brandName": "OREO",
+    "type": "cookie",
+    "cacao": 0,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "ORIGINAL",
+    "emoji": "🍫",
+    "image": "lk6.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 103,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Элитный сорт горького шоколада, содержит 75% какао.",
+    "emoji": "🍫",
+    "image": "бб1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 104,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад темный Бабаевский с имбирным печеньем",
+    "emoji": "🍫",
+    "image": "бб2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 105,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Бабаевский темный с грушей и миндалем",
+    "emoji": "🍫",
+    "image": "бб4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 106,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Бабаевский темный с малиной и миндалем",
+    "emoji": "🍫",
+    "image": "бб5.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 107,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Бабаевский темный с кешью и фундуком",
+    "emoji": "🍫",
+    "image": "бб6.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 108,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Бабаевский темный с нугой и цукатами",
+    "emoji": "🍫",
+    "image": "бб7.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 109,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад ореховый",
+    "emoji": "🍫",
+    "image": "бб8.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 110,
+    "name": "Бабаевскии",
+    "brand": "Бабаевскии",
+    "brandName": "Бабаевскии",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Темный шоколад с целым миндалем",
+    "emoji": "🍫",
+    "image": "бб10.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 111,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Молочная с арахисом",
+    "emoji": "🍫",
+    "image": "вс1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 112,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Молочная с вафельной крошкой ",
+    "emoji": "🍫",
+    "image": "вс2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 113,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад молочный Аленка Ванильный пломбир ",
+    "emoji": "🍫",
+    "image": "aa1.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 114,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад молочный Аленка Шоколадный десерт ",
+    "emoji": "🍫",
+    "image": "aa2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 115,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад молочный Аленка с арахисом ",
+    "emoji": "🍫",
+    "image": "aa3.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 116,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад молочный Аленка с мягкой карамелью и орехом ",
+    "emoji": "🍫",
+    "image": "aa4.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 117,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад молочный Аленка с клубничной нугой ",
+    "emoji": "🍫",
+    "image": "aa5.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 118,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой черничный йогурт ",
+    "emoji": "🍫",
+    "image": "aa6.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 119,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с печеньем солёный крекер",
+    "emoji": "🍫",
+    "image": "aa7.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 120,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с печеньем вкус малины ",
+    "emoji": "🍫",
+    "image": "aa8.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 121,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой соленая карамель и арахис ",
+    "emoji": "🍫",
+    "image": "aa9.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 122,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой Тройной десерт",
+    "emoji": "🍫",
+    "image": "aa10.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 123,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой печенье и карамель ",
+    "emoji": "🍫",
+    "image": "aa12.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 124,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с молочной начинкой и веселинками ",
+    "emoji": "🍫",
+    "image": "aa13.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 125,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой клубника со сливками ",
+    "emoji": "🍫",
+    "image": "aa14.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 126,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с начинкой крем-банан ",
+    "emoji": "🍫",
+    "image": "aa15.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 127,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка с разноцветным драже ",
+    "emoji": "🍫",
+    "image": "aa17.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 128,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка в стиках с Варёной сгущёнкой ",
+    "emoji": "🍫",
+    "image": "aa18.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 129,
+    "name": "Аленка",
+    "brand": "Аленка",
+    "brandName": "Аленка",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад Алёнка в стиках ",
+    "emoji": "🍫",
+    "image": "aa19.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 130,
+    "name": "Roshen",
+    "brand": "Roshen",
+    "brandName": "Roshen",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад пористый молочный  ",
+    "emoji": "🍫",
+    "image": "rr1.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 131,
+    "name": "Roshen",
+    "brand": "Roshen",
+    "brandName": "Roshen",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад пористый белый ",
+    "emoji": "🍫",
+    "image": "rr2.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 132,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад пористый белый карамельный ",
+    "emoji": "🍫",
+    "image": "rr3.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 133,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад пористый экстрачерный",
+    "emoji": "🍫",
+    "image": "rr4.png",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 134,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад черный Special 56%",
+    "emoji": "🍫",
+    "image": "rr6.jpeg",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 135,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Шоколад черный с подсоленным дробленным миндалём ",
+    "emoji": "🍫",
+    "image": "rr7.jpeg",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 136,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Молочная с вафельной крошкой ",
+    "emoji": "🍫",
+    "image": "вс2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  },
+  {
+    "id": 137,
+    "name": "РотФронт",
+    "brand": "РотФронт",
+    "brandName": "РотФронт",
+    "type": "cookie",
+    "cacao": 75,
+    "flavor": "classic",
+    "category": "sets",
+    "price": 450,
+    "description": "Молочная с вафельной крошкой ",
+    "emoji": "🍫",
+    "image": "вс2.webp",
+    "tags": [
+      "хит"
+    ],
+    "country": "usa"
+  }
+]

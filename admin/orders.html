@@ -1,0 +1,219 @@
+s<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказы | Айдана Sweets Админ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div class="admin-body">
+
+    <!-- Боковое меню -->
+    <div class="admin-sidebar">
+        <div class="admin-sidebar-header">
+            <h2><i class="fas fa-candy-cane"></i> Айдана Sweets</h2>
+            <p style="font-size:.7rem;opacity:.7;margin-top:5px;">Админ-панель</p>
+        </div>
+        <div class="admin-sidebar-menu">
+            <a href="dashboard.html" class="admin-menu-item"><i class="fas fa-tachometer-alt"></i> Дашборд</a>
+            <a href="products.html"  class="admin-menu-item"><i class="fas fa-box"></i> Товары</a>
+            <a href="orders.html"    class="admin-menu-item active"><i class="fas fa-shopping-cart"></i> Заказы</a>
+            <a href="#" class="admin-menu-item" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Выход</a>
+        </div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="admin-main">
+        <div class="admin-header">
+            <h1><i class="fas fa-shopping-cart"></i> Управление заказами</h1>
+            <span id="ordersCount" style="background:var(--admin-primary);padding:6px 14px;border-radius:20px;color:white;font-weight:700;"></span>
+        </div>
+
+        <div id="alertBox" style="display:none;padding:12px 16px;border-radius:10px;margin-bottom:16px;font-weight:600;"></div>
+
+        <!-- Фильтры -->
+        <div class="admin-table-container" style="margin-bottom:20px;">
+            <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+                <strong>Фильтр:</strong>
+                <button class="btn btn-primary"  id="fAll"        onclick="filterOrders('')">Все</button>
+                <button class="btn btn-outline"  id="fNew"        onclick="filterOrders('new')">🆕 Новые</button>
+                <button class="btn btn-outline"  id="fProcessing" onclick="filterOrders('processing')">⚙️ В обработке</button>
+                <button class="btn btn-outline"  id="fDone"       onclick="filterOrders('done')">✅ Доставленные</button>
+            </div>
+        </div>
+
+        <!-- Таблица -->
+        <div class="admin-table-container">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>№</th><th>Покупатель</th><th>Телефон</th>
+                        <th>Сумма</th><th>Дата</th><th>Статус</th><th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody id="ordersTableBody">
+                    <tr><td colspan="7" style="text-align:center">Загрузка...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно деталей заказа -->
+<div class="admin-modal" id="orderModal">
+    <div class="admin-modal-content" style="max-width:500px;">
+        <div class="admin-modal-header">
+            <h3>📦 Детали заказа</h3>
+            <button class="admin-modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="admin-modal-body" id="orderDetails"></div>
+        <div class="admin-modal-footer">
+            <button class="btn btn-outline" onclick="closeModal()">Закрыть</button>
+        </div>
+    </div>
+</div>
+
+<script src="api.js"></script>
+<script>
+let currentFilter = '';
+
+function showAlert(msg, success = true) {
+    const box = document.getElementById('alertBox');
+    box.textContent = msg;
+    box.style.display = 'block';
+    box.style.background = success ? '#E8F5E9' : '#FFEBEE';
+    box.style.color      = success ? '#2E7D5B' : '#C62828';
+    setTimeout(() => box.style.display = 'none', 3000);
+}
+
+async function loadOrders(status = '') {
+    try {
+        const orders = await api.getOrders(status || undefined);
+        document.getElementById('ordersCount').textContent = `${orders.length} заказов`;
+        renderOrders(orders);
+    } catch(e) {
+        showAlert('Ошибка: ' + e.message, false);
+    }
+}
+
+function renderOrders(orders) {
+    const tbody = document.getElementById('ordersTableBody');
+
+    if (orders.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center">📦 Нет заказов</td></tr>';
+        return;
+    }
+
+    const statusColors = {
+        new:        { bg:'#FFF3E0', color:'#E65100' },
+        processing: { bg:'#E3F2FD', color:'#1565C0' },
+        done:       { bg:'#E8F5E9', color:'#2E7D5B' },
+    };
+
+    tbody.innerHTML = orders.map(o => {
+        const sc = statusColors[o.status] || statusColors.new;
+        return `
+            <tr>
+                <td><strong>#${o.id}</strong></td>
+                <td>${o.customer}</td>
+                <td>${o.phone}</td>
+                <td>${o.total} сом</td>
+                <td>${new Date(o.date).toLocaleDateString('ru-RU')}</td>
+                <td>
+                    <select style="background:${sc.bg};color:${sc.color};border:none;padding:5px 10px;border-radius:20px;font-weight:700;cursor:pointer;"
+                            onchange="updateStatus(${o.id}, this.value)">
+                        <option value="new"        ${o.status==='new'        ?'selected':''}>🆕 Новый</option>
+                        <option value="processing" ${o.status==='processing' ?'selected':''}>⚙️ В обработке</option>
+                        <option value="done"       ${o.status==='done'       ?'selected':''}>✅ Доставлен</option>
+                    </select>
+                </td>
+                <td class="admin-actions">
+                    <button class="admin-btn admin-btn-view"   onclick="viewOrder(${o.id})">👁️ Детали</button>
+                    <button class="admin-btn admin-btn-delete" onclick="deleteOrder(${o.id})">🗑️</button>
+                </td>
+            </tr>
+        `;
+    }).join('');
+}
+
+async function updateStatus(id, status) {
+    try {
+        await api.updateStatus(id, status);
+        showAlert(`✅ Статус заказа #${id} обновлён`);
+        loadOrders(currentFilter);
+    } catch(e) {
+        showAlert('Ошибка: ' + e.message, false);
+    }
+}
+
+async function viewOrder(id) {
+    try {
+        const o = await api.getOrder(id);
+        const itemsHtml = o.items.map(i => `
+            <div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee;">
+                <span>${i.name} × ${i.quantity}</span>
+                <span>${i.price * i.quantity} сом</span>
+            </div>
+        `).join('');
+
+        document.getElementById('orderDetails').innerHTML = `
+            <div style="background:#F5ECD7;padding:15px;border-radius:12px;margin-bottom:15px;">
+                <p><strong>📅 Дата:</strong> ${new Date(o.date).toLocaleString('ru-RU')}</p>
+                <p><strong>👤 Покупатель:</strong> ${o.customer}</p>
+                <p><strong>📞 Телефон:</strong> ${o.phone}</p>
+                <p><strong>📍 Адрес:</strong> ${o.address}</p>
+                <p><strong>💳 Оплата:</strong> ${o.payment === 'card' ? 'Карта онлайн' : 'Наличными курьеру'}</p>
+            </div>
+            <h4 style="margin-bottom:8px;">🛒 Состав заказа:</h4>
+            ${itemsHtml}
+            <div style="display:flex;justify-content:space-between;padding:12px 0;margin-top:10px;border-top:2px solid var(--admin-primary);font-weight:800;font-size:1.1rem;">
+                <span>ИТОГО:</span><span>${o.total} сом</span>
+            </div>
+        `;
+        document.getElementById('orderModal').classList.add('active');
+    } catch(e) {
+        showAlert('Ошибка: ' + e.message, false);
+    }
+}
+
+async function deleteOrder(id) {
+    if (!confirm(`Удалить заказ #${id}?`)) return;
+    try {
+        await api.deleteOrder(id);
+        showAlert('🗑️ Заказ удалён');
+        loadOrders(currentFilter);
+    } catch(e) {
+        showAlert('Ошибка: ' + e.message, false);
+    }
+}
+
+function filterOrders(status) {
+    currentFilter = status;
+    // Обновляем кнопки
+    ['fAll','fNew','fProcessing','fDone'].forEach(id => {
+        document.getElementById(id).className = 'btn btn-outline';
+    });
+    const map = { '':'fAll', new:'fNew', processing:'fProcessing', done:'fDone' };
+    document.getElementById(map[status]).className = 'btn btn-primary';
+    loadOrders(status);
+}
+
+function closeModal() {
+    document.getElementById('orderModal').classList.remove('active');
+}
+
+window.onclick = e => {
+    if (e.target === document.getElementById('orderModal')) closeModal();
+};
+
+(async () => {
+    await requireAuth();
+    loadOrders();
+    document.getElementById('logoutBtn').addEventListener('click', e => { e.preventDefault(); logout(); });
+})();
+</script>
+</body>
+</html>

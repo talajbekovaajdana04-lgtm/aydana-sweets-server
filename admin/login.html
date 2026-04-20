@@ -1,0 +1,79 @@
+ss<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в админ-панель | Айдана Sweets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-login-page">
+    <div class="admin-login-container">
+        <div class="admin-login-box">
+            <div class="admin-login-header">
+                <div class="admin-login-logo">
+                    <span class="logo-icon">🍫</span>
+                    <h1>Айдана <span>Sweets</span></h1>
+                </div>
+                <p>Вход в панель управления</p>
+            </div>
+
+            <div id="errorMsg" style="display:none; background:#FFEBEE; color:#C62828; padding:12px 16px; border-radius:10px; margin-bottom:16px; font-size:0.9rem;"></div>
+
+            <form id="loginForm">
+                <div class="admin-login-group">
+                    <label><i class="fas fa-user"></i> Логин</label>
+                    <input type="text" id="username" class="admin-login-input" placeholder="Введите логин" required>
+                </div>
+
+                <div class="admin-login-group">
+                    <label><i class="fas fa-lock"></i> Пароль</label>
+                    <input type="password" id="password" class="admin-login-input" placeholder="Введите пароль" required>
+                </div>
+
+                <button type="submit" class="admin-login-btn" id="loginBtn">
+                    <i class="fas fa-sign-in-alt"></i> Войти
+                </button>
+
+                <div class="admin-login-info">
+                    <a href="/" class="back-to-site">← На главный сайт</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script>
+        // Если уже залогинен — сразу на дашборд
+        if (localStorage.getItem('admin_token')) {
+            window.location.href = '/admin/dashboard.html';
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const btn      = document.getElementById('loginBtn');
+            const errorDiv = document.getElementById('errorMsg');
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+
+            btn.disabled    = true;
+            btn.textContent = 'Вход...';
+            errorDiv.style.display = 'none';
+
+            try {
+                const result = await api.login(username, password);
+                // Сохраняем JWT-токен в localStorage
+                localStorage.setItem('admin_token', result.token);
+                window.location.href = '/admin/dashboard.html';
+            } catch (err) {
+                errorDiv.textContent   = '❌ ' + err.message;
+                errorDiv.style.display = 'block';
+                btn.disabled    = false;
+                btn.innerHTML   = '<i class="fas fa-sign-in-alt"></i> Войти';
+            }
+        });
+    </script>
+</body>
+</html>
